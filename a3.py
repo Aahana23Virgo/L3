@@ -1,0 +1,10 @@
+def array_sum(a):
+    total=0
+    for i in a:
+        total += i
+    return total
+
+a = [12,3,4,15]
+print("Array sum:", array_sum(a))
+
+#time complexity=O(n)
